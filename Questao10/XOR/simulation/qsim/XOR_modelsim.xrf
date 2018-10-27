@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, G:/VHDL/NOT/PortNot.vhd
+source_file = 1, G:/VHDL/OR/PortOr.vhd
+source_file = 1, G:/VHDL/AND/QAnd.vhd
+source_file = 1, G:/VHDL/XOR/PortXor.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, G:/VHDL/XOR/db/XOR.cbx.xml
+design_name = PortXor
+instance = comp, \Output~output\, Output~output, PortXor, 1
+instance = comp, \Input_a~input\, Input_a~input, PortXor, 1
+instance = comp, \Input_b~input\, Input_b~input, PortXor, 1
+instance = comp, \G4|pout~0\, G4|pout~0, PortXor, 1

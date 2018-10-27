@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+ENTITY PortNotAnd IS
+	PORT
+	(
+	Input_a: IN STD_LOGIC;
+	Input_b: IN STD_LOGIC;
+	Output: IN STD_LOGIC;
+	);
+END POrtNotAnd;
+
+ARCHITECTURE behavior OF PortNotAnd IS 
+BEGIN
+	
+	Output <= not(Input_a and Input_b);
+
+END behavior;

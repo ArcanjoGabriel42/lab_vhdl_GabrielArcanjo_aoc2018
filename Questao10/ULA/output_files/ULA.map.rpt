@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ULA
-Thu Oct 25 17:07:33 2018
+Sat Oct 27 12:09:09 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Oct 25 17:07:33 2018       ;
+; Analysis & Synthesis Status     ; Successful - Sat Oct 27 12:09:09 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; ULA                                         ;
 ; Top-level Entity Name           ; ULA                                         ;
@@ -166,24 +166,24 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                           ;
-+----------------------------------+-----------------+-----------------+---------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path    ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------+---------+
-; ../Subtrador/Sub.vhd             ; yes             ; User VHDL File  ; G:/VHDL/Subtrador/Sub.vhd       ;         ;
-; ../Shift2R/Shift2R.vhd           ; yes             ; User VHDL File  ; G:/VHDL/Shift2R/Shift2R.vhd     ;         ;
-; ../Shift 2L/Shifter2L.vhd        ; yes             ; User VHDL File  ; G:/VHDL/Shift 2L/Shifter2L.vhd  ;         ;
-; ../Somador16/Somador16.vhd       ; yes             ; User VHDL File  ; G:/VHDL/Somador16/Somador16.vhd ;         ;
-; ../Multplx 12/Mux_12.vhd         ; yes             ; User VHDL File  ; G:/VHDL/Multplx 12/Mux_12.vhd   ;         ;
-; ../XOR/PortXor.vhd               ; yes             ; User VHDL File  ; G:/VHDL/XOR/PortXor.vhd         ;         ;
-; ../NOR/PortNOR.vhd               ; yes             ; User VHDL File  ; G:/VHDL/NOR/PortNOR.vhd         ;         ;
-; ../NAND/NotAnd.vhd               ; yes             ; User VHDL File  ; G:/VHDL/NAND/NotAnd.vhd         ;         ;
-; ../NOT/PortNot.vhd               ; yes             ; User VHDL File  ; G:/VHDL/NOT/PortNot.vhd         ;         ;
-; ../OR/PortOr.vhd                 ; yes             ; User VHDL File  ; G:/VHDL/OR/PortOr.vhd           ;         ;
-; ../AND/QAnd.vhd                  ; yes             ; User VHDL File  ; G:/VHDL/AND/QAnd.vhd            ;         ;
-; ULA.vhd                          ; yes             ; User VHDL File  ; G:/VHDL/ULA/ULA.vhd             ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                               ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                        ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------+---------+
+; ../Subtrador/Sub.vhd             ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Subtrador/Sub.vhd       ;         ;
+; ../Shift2R/Shift2R.vhd           ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Shift2R/Shift2R.vhd     ;         ;
+; ../Shift 2L/Shifter2L.vhd        ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Shift 2L/Shifter2L.vhd  ;         ;
+; ../Somador16/Somador16.vhd       ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Somador16/Somador16.vhd ;         ;
+; ../Multplx 12/Mux_12.vhd         ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Multplx 12/Mux_12.vhd   ;         ;
+; ../XOR/PortXor.vhd               ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/XOR/PortXor.vhd         ;         ;
+; ../NOR/PortNOR.vhd               ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NOR/PortNOR.vhd         ;         ;
+; ../NAND/NotAnd.vhd               ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NAND/NotAnd.vhd         ;         ;
+; ../NOT/PortNot.vhd               ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NOT/PortNot.vhd         ;         ;
+; ../OR/PortOr.vhd                 ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/OR/PortOr.vhd           ;         ;
+; ../AND/QAnd.vhd                  ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/AND/QAnd.vhd            ;         ;
+; ULA.vhd                          ; yes             ; User VHDL File  ; E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd             ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -288,58 +288,58 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 25 17:07:06 2018
+    Info: Processing started: Sat Oct 27 12:08:45 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ULA -c ULA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/subtrador/sub.vhd
-    Info (12022): Found design unit 1: Sub16-behavior File: G:/VHDL/Subtrador/Sub.vhd Line: 14
-    Info (12023): Found entity 1: Sub16 File: G:/VHDL/Subtrador/Sub.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/shift2r/shift2r.vhd
-    Info (12022): Found design unit 1: Shift2R-behavior File: G:/VHDL/Shift2R/Shift2R.vhd Line: 13
-    Info (12023): Found entity 1: Shift2R File: G:/VHDL/Shift2R/Shift2R.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/shift 2l/shifter2l.vhd
-    Info (12022): Found design unit 1: Shifter2L-behavior File: G:/VHDL/Shift 2L/Shifter2L.vhd Line: 13
-    Info (12023): Found entity 1: Shifter2L File: G:/VHDL/Shift 2L/Shifter2L.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/somador16/somador16.vhd
-    Info (12022): Found design unit 1: Somador16-behavior File: G:/VHDL/Somador16/Somador16.vhd Line: 14
-    Info (12023): Found entity 1: Somador16 File: G:/VHDL/Somador16/Somador16.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/multplx 12/mux_12.vhd
-    Info (12022): Found design unit 1: Mux_12-behavior File: G:/VHDL/Multplx 12/Mux_12.vhd Line: 13
-    Info (12023): Found entity 1: Mux_12 File: G:/VHDL/Multplx 12/Mux_12.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/xor/portxor.vhd
-    Info (12022): Found design unit 1: PortXor-behavior File: G:/VHDL/XOR/PortXor.vhd Line: 13
-    Info (12023): Found entity 1: PortXor File: G:/VHDL/XOR/PortXor.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/nor/portnor.vhd
-    Info (12022): Found design unit 1: PortNOR-behavior File: G:/VHDL/NOR/PortNOR.vhd Line: 13
-    Info (12023): Found entity 1: PortNOR File: G:/VHDL/NOR/PortNOR.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/nand/notand.vhd
-    Info (12022): Found design unit 1: NotAnd-behavior File: G:/VHDL/NAND/NotAnd.vhd Line: 13
-    Info (12023): Found entity 1: NotAnd File: G:/VHDL/NAND/NotAnd.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/not/portnot.vhd
-    Info (12022): Found design unit 1: PortNot-behavior File: G:/VHDL/NOT/PortNot.vhd Line: 12
-    Info (12023): Found entity 1: PortNot File: G:/VHDL/NOT/PortNot.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/or/portor.vhd
-    Info (12022): Found design unit 1: PortOr-behavior File: G:/VHDL/OR/PortOr.vhd Line: 14
-    Info (12023): Found entity 1: PortOr File: G:/VHDL/OR/PortOr.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /vhdl/and/qand.vhd
-    Info (12022): Found design unit 1: QAnd-behavior File: G:/VHDL/AND/QAnd.vhd Line: 11
-    Info (12023): Found entity 1: QAnd File: G:/VHDL/AND/QAnd.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/subtrador/sub.vhd
+    Info (12022): Found design unit 1: Sub16-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Subtrador/Sub.vhd Line: 14
+    Info (12023): Found entity 1: Sub16 File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Subtrador/Sub.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/shift2r/shift2r.vhd
+    Info (12022): Found design unit 1: Shift2R-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Shift2R/Shift2R.vhd Line: 13
+    Info (12023): Found entity 1: Shift2R File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Shift2R/Shift2R.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/shift 2l/shifter2l.vhd
+    Info (12022): Found design unit 1: Shifter2L-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Shift 2L/Shifter2L.vhd Line: 13
+    Info (12023): Found entity 1: Shifter2L File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Shift 2L/Shifter2L.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/somador16/somador16.vhd
+    Info (12022): Found design unit 1: Somador16-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Somador16/Somador16.vhd Line: 14
+    Info (12023): Found entity 1: Somador16 File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Somador16/Somador16.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/multplx 12/mux_12.vhd
+    Info (12022): Found design unit 1: Mux_12-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Multplx 12/Mux_12.vhd Line: 13
+    Info (12023): Found entity 1: Mux_12 File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/Multplx 12/Mux_12.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/xor/portxor.vhd
+    Info (12022): Found design unit 1: PortXor-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/XOR/PortXor.vhd Line: 13
+    Info (12023): Found entity 1: PortXor File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/XOR/PortXor.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/nor/portnor.vhd
+    Info (12022): Found design unit 1: PortNOR-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NOR/PortNOR.vhd Line: 13
+    Info (12023): Found entity 1: PortNOR File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NOR/PortNOR.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/nand/notand.vhd
+    Info (12022): Found design unit 1: NotAnd-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NAND/NotAnd.vhd Line: 13
+    Info (12023): Found entity 1: NotAnd File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NAND/NotAnd.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/not/portnot.vhd
+    Info (12022): Found design unit 1: PortNot-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NOT/PortNot.vhd Line: 12
+    Info (12023): Found entity 1: PortNot File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/NOT/PortNot.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/or/portor.vhd
+    Info (12022): Found design unit 1: PortOr-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/OR/PortOr.vhd Line: 14
+    Info (12023): Found entity 1: PortOr File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/OR/PortOr.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /documentos/vhdl/questao10-ula git kraken/and/qand.vhd
+    Info (12022): Found design unit 1: QAnd-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/AND/QAnd.vhd Line: 11
+    Info (12023): Found entity 1: QAnd File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/AND/QAnd.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
-    Info (12022): Found design unit 1: ULA-behavior File: G:/VHDL/ULA/ULA.vhd Line: 15
-    Info (12023): Found entity 1: ULA File: G:/VHDL/ULA/ULA.vhd Line: 5
+    Info (12022): Found design unit 1: ULA-behavior File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 15
+    Info (12023): Found entity 1: ULA File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 5
 Info (12127): Elaborating entity "ULA" for the top level hierarchy
-Info (12128): Elaborating entity "QAnd" for hierarchy "QAnd:G1" File: G:/VHDL/ULA/ULA.vhd Line: 111
-Info (12128): Elaborating entity "PortOr" for hierarchy "PortOr:G2" File: G:/VHDL/ULA/ULA.vhd Line: 112
-Info (12128): Elaborating entity "PortNot" for hierarchy "PortNot:G3" File: G:/VHDL/ULA/ULA.vhd Line: 113
-Info (12128): Elaborating entity "NotAnd" for hierarchy "NotAnd:G4" File: G:/VHDL/ULA/ULA.vhd Line: 114
-Info (12128): Elaborating entity "PortNOR" for hierarchy "PortNOR:G5" File: G:/VHDL/ULA/ULA.vhd Line: 115
-Info (12128): Elaborating entity "PortXor" for hierarchy "PortXor:G6" File: G:/VHDL/ULA/ULA.vhd Line: 116
-Info (12128): Elaborating entity "Shift2R" for hierarchy "Shift2R:G7" File: G:/VHDL/ULA/ULA.vhd Line: 117
-Info (12128): Elaborating entity "Shifter2L" for hierarchy "Shifter2L:G8" File: G:/VHDL/ULA/ULA.vhd Line: 118
-Info (12128): Elaborating entity "Somador16" for hierarchy "Somador16:G11" File: G:/VHDL/ULA/ULA.vhd Line: 121
-Info (12128): Elaborating entity "Sub16" for hierarchy "Sub16:G12" File: G:/VHDL/ULA/ULA.vhd Line: 122
-Info (12128): Elaborating entity "Mux_12" for hierarchy "Mux_12:G13" File: G:/VHDL/ULA/ULA.vhd Line: 123
+Info (12128): Elaborating entity "QAnd" for hierarchy "QAnd:G1" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 113
+Info (12128): Elaborating entity "PortOr" for hierarchy "PortOr:G2" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 114
+Info (12128): Elaborating entity "PortNot" for hierarchy "PortNot:G3" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 115
+Info (12128): Elaborating entity "NotAnd" for hierarchy "NotAnd:G4" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 116
+Info (12128): Elaborating entity "PortNOR" for hierarchy "PortNOR:G5" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 117
+Info (12128): Elaborating entity "PortXor" for hierarchy "PortXor:G6" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 118
+Info (12128): Elaborating entity "Shift2R" for hierarchy "Shift2R:G7" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 119
+Info (12128): Elaborating entity "Shifter2L" for hierarchy "Shifter2L:G8" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 120
+Info (12128): Elaborating entity "Somador16" for hierarchy "Somador16:G11" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 123
+Info (12128): Elaborating entity "Sub16" for hierarchy "Sub16:G12" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 124
+Info (12128): Elaborating entity "Mux_12" for hierarchy "Mux_12:G13" File: E:/Documentos/VHDL/Questao10-ULA GIT KRAKEN/ULA/ULA.vhd Line: 125
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -348,9 +348,9 @@ Info (21057): Implemented 116 device resources after synthesis - the final resou
     Info (21059): Implemented 16 output pins
     Info (21061): Implemented 64 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4880 megabytes
-    Info: Processing ended: Thu Oct 25 17:07:34 2018
-    Info: Elapsed time: 00:00:28
-    Info: Total CPU time (on all processors): 00:00:51
+    Info: Peak virtual memory: 4870 megabytes
+    Info: Processing ended: Sat Oct 27 12:09:09 2018
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:50
 
 

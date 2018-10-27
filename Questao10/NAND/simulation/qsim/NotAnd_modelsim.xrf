@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, E:/Documentos/VHDL/NAND/NotAnd.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, E:/Documentos/VHDL/NAND/db/NotAnd.cbx.xml
+design_name = NotAnd
+instance = comp, \Output~output\, Output~output, NotAnd, 1
+instance = comp, \Input_a~input\, Input_a~input, NotAnd, 1
+instance = comp, \Input_b~input\, Input_b~input, NotAnd, 1
+instance = comp, \Output~0\, Output~0, NotAnd, 1

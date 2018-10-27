@@ -1,0 +1,5 @@
+|PortNot
+Input => Output.DATAIN
+Output <= Input.DB_MAX_OUTPUT_PORT_TYPE
+
+

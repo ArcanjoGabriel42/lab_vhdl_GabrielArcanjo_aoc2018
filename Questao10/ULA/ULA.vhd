@@ -1,19 +1,14 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-
 Entity ULA is 
 	Port
-	(
-		Register_1: in std_logic_vector(15 downto 0);
-		Register_2: in std_logic_vector(15 downto 0);
-		Se: in std_logic_vector(3 downto 0);
-		Output: out std_logic_vector(15 downto 0)
-	);
+	(Register_1: in std_logic_vector(15 downto 0);
+	 Register_2: in std_logic_vector(15 downto 0);
+	 Se: in std_logic_vector(3 downto 0);
+	 Output: out std_logic_vector(15 downto 0));
 End ULA;
-
 Architecture behavior of ULA is
-
 Component Shift2R is
 	Port
 	(
@@ -106,6 +101,7 @@ Component Sub16 is
 	);
 End Component;
 
+
 Signal BAnd, BOr, BNot, BNand, BNor, BXor, BShiftR1, BShiftR2, BShiftL1, BShiftL2, BSum, BSub, BOut: std_logic_vector(15 downto 0);
 Begin
 	G1:QAnd       port map(Register_1,Register_2,BAnd);
@@ -121,6 +117,5 @@ Begin
 	G11:Somador16 port map(Register_1,Register_2,BSum);
 	G12:Sub16     port map(Register_1,Register_2,BSub);
 	G13:Mux_12    port map(BAnd, BOr, BNot, BNand, BNor, BXor, BShiftR1, BShiftR2, BShiftL1, BShiftL2, BSum, BSub,BOut,Se);
-
 	Output <= BOut;
 End behavior;

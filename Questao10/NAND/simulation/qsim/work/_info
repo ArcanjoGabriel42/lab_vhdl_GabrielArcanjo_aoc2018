@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Documentos/VHDL/NAND/simulation/qsim
+Enotand
+Z1 w1538673077
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+R0
+Z9 8NotAnd.vho
+Z10 FNotAnd.vho
+l0
+L36
+V>dVS69mQOL@DQ[SfmaWSF1
+!s100 M?M4g;6949SUm^R<Fz0941
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1538673088
+!i10b 1
+Z13 !s108 1538673087.000000
+Z14 !s90 -work|work|NotAnd.vho|
+Z15 !s107 NotAnd.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 6 notand 0 22 >dVS69mQOL@DQ[SfmaWSF1
+l65
+L44
+VLgffnZcl8i[6AC=AL[9Y:0
+!s100 nndAn15ACEJ4n4hiaJ81i1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Enotand_vhd_vec_tst
+Z18 w1538673074
+R6
+R7
+R0
+Z19 8TestNAND.vwf.vht
+Z20 FTestNAND.vwf.vht
+l0
+L31
+VCK_]g=7imDJ0TB?m=Q_2J2
+!s100 BQUH^VlLdoJ8]:e^[dPBz2
+R11
+32
+R12
+!i10b 1
+Z21 !s108 1538673088.000000
+Z22 !s90 -work|work|TestNAND.vwf.vht|
+Z23 !s107 TestNAND.vwf.vht|
+!i113 1
+R16
+R17
+Anotand_arch
+R6
+R7
+DEx4 work 18 notand_vhd_vec_tst 0 22 CK_]g=7imDJ0TB?m=Q_2J2
+l46
+L33
+VO_5_hG02[UmM8DJ3ENhI_2
+!s100 34b^eQUhc1cg@@4emhYcO2
+R11
+32
+R12
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R16
+R17

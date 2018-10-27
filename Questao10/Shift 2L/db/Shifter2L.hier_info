@@ -1,0 +1,35 @@
+|Shifter2L
+Input_a[0] => Output[2].DATAIN
+Input_a[1] => Output[3].DATAIN
+Input_a[2] => Output[4].DATAIN
+Input_a[3] => Output[5].DATAIN
+Input_a[4] => Output[6].DATAIN
+Input_a[5] => Output[7].DATAIN
+Input_a[6] => Output[8].DATAIN
+Input_a[7] => Output[9].DATAIN
+Input_a[8] => Output[10].DATAIN
+Input_a[9] => Output[11].DATAIN
+Input_a[10] => Output[12].DATAIN
+Input_a[11] => Output[13].DATAIN
+Input_a[12] => Output[14].DATAIN
+Input_a[13] => Output[15].DATAIN
+Input_a[14] => ~NO_FANOUT~
+Input_a[15] => ~NO_FANOUT~
+Output[0] <= <GND>
+Output[1] <= <GND>
+Output[2] <= Input_a[0].DB_MAX_OUTPUT_PORT_TYPE
+Output[3] <= Input_a[1].DB_MAX_OUTPUT_PORT_TYPE
+Output[4] <= Input_a[2].DB_MAX_OUTPUT_PORT_TYPE
+Output[5] <= Input_a[3].DB_MAX_OUTPUT_PORT_TYPE
+Output[6] <= Input_a[4].DB_MAX_OUTPUT_PORT_TYPE
+Output[7] <= Input_a[5].DB_MAX_OUTPUT_PORT_TYPE
+Output[8] <= Input_a[6].DB_MAX_OUTPUT_PORT_TYPE
+Output[9] <= Input_a[7].DB_MAX_OUTPUT_PORT_TYPE
+Output[10] <= Input_a[8].DB_MAX_OUTPUT_PORT_TYPE
+Output[11] <= Input_a[9].DB_MAX_OUTPUT_PORT_TYPE
+Output[12] <= Input_a[10].DB_MAX_OUTPUT_PORT_TYPE
+Output[13] <= Input_a[11].DB_MAX_OUTPUT_PORT_TYPE
+Output[14] <= Input_a[12].DB_MAX_OUTPUT_PORT_TYPE
+Output[15] <= Input_a[13].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,8 @@
+|PortOr
+Input_a => Output.IN0
+Input_b => Output.IN1
+Input_c => Output.IN1
+Input_d => Output.IN1
+Output <= Output.DB_MAX_OUTPUT_PORT_TYPE
+
+

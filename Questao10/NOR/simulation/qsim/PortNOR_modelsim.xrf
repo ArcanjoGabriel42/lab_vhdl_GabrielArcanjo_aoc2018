@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, E:/Documentos/VHDL/NOR/PortNOR.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, E:/Documentos/VHDL/NOR/db/PortNOR.cbx.xml
+design_name = PortNOR
+instance = comp, \Output~output\, Output~output, PortNOR, 1
+instance = comp, \Input_b~input\, Input_b~input, PortNOR, 1
+instance = comp, \Input_a~input\, Input_a~input, PortNOR, 1
+instance = comp, \Output~0\, Output~0, PortNOR, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, PortNOR, 1

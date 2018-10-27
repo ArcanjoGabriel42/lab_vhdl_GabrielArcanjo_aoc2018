@@ -1,0 +1,6 @@
+|QAnd
+pa => pout.IN0
+pb => pout.IN1
+pout <= pout.DB_MAX_OUTPUT_PORT_TYPE
+
+

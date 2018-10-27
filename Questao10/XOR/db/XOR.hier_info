@@ -1,0 +1,31 @@
+|PortXor
+Input_a => QAnd:G1.pa
+Input_a => PortOr:G2.Input_a
+Input_b => QAnd:G1.pb
+Input_b => PortOr:G2.Input_b
+Output <= QAnd:G4.pout
+
+
+|PortXor|QAnd:G1
+pa => pout.IN0
+pb => pout.IN1
+pout <= pout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PortXor|PortOr:G2
+Input_a => Output.IN0
+Input_b => Output.IN1
+Output <= Output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PortXor|PortNot:G3
+Input => Output.DATAIN
+Output <= Input.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PortXor|QAnd:G4
+pa => pout.IN0
+pb => pout.IN1
+pout <= pout.DB_MAX_OUTPUT_PORT_TYPE
+
+
