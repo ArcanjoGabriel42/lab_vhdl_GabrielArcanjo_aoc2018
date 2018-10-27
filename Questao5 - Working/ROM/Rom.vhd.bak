@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+Entity Rom is 
+	Port
+	(
+		adress: in unsigned(3 down 0);
+		enable: in std_logic;
+		saida: out unsigned(15 downto 0)
+	);
+End Rom;
+
+Architecture behavior of Rom is
+	Type pattern is array (Natural Range <>) of unsigned(15 downto 0);
+	constant data : pattern (0 to )
