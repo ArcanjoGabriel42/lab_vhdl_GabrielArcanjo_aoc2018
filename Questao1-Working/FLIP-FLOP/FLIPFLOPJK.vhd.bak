@@ -1,0 +1,13 @@
+library ieee;
+use ieee.STD_LOGIC_1164.all;
+
+ENTITY FLIPFLOPJK IS
+	PORT
+	(
+		Clock: IN STD_LOGIC;
+		J: IN STD_LOGIC;
+		K: IN STD_LOGIC;
+		Q: OUT STD_LOGIC;
+		NQ: OUT STD_LOGIC;
+	
+	)

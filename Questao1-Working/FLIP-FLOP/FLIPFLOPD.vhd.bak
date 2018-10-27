@@ -1,0 +1,19 @@
+library.ieee;
+use ieee.STD_LOGIC_1164.all;
+
+ENTITY FLIPFLOPD IS
+	PORT
+	(
+		Dados_in:IN STD_LOGIC;
+		Clock: IN STD_LOGIC;
+		Dados_out: OUT STD_LOGIC
+	);
+END FLIPFLOPD;
+
+ARCHITECTURE behavior OF FLIPFLOPD IS
+BEGIN
+	PROCESS(Dados_in,Clock)
+	BEGIN
+		
+		if(Clock == 1) then
+			

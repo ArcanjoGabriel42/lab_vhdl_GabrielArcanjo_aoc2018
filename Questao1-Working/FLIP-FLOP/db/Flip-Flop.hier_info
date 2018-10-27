@@ -1,0 +1,6 @@
+|FLIPFLOPD
+Dados_in => Dados_out$latch.DATAIN
+Clock => Dados_out$latch.LATCH_ENABLE
+Dados_out <= Dados_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

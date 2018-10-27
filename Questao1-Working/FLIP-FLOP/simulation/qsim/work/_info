@@ -1,0 +1,232 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VHDL/FLIP-FLOP/simulation/qsim
+vFLIPFLOPD
+!s110 1539869479
+!i10b 1
+!s100 [_jYVSmf73eCeg2g_VL:B2
+IQ4Z8@aKgACU?cLef6ZSGf3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1539869480
+8Flip-Flop.vo
+FFlip-Flop.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z3 !s108 1539869479.000000
+!s107 Flip-Flop.vo|
+!s90 -work|work|Flip-Flop.vo|
+!i113 1
+Z4 o-work work
+n@f@l@i@p@f@l@o@p@d
+Eflipflopd
+Z5 w1540618156
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z12 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+Z13 dE:/Documentos/VHDL/Questao1/FLIP-FLOP/simulation/qsim
+Z14 8Flip-Flop.vho
+Z15 FFlip-Flop.vho
+l0
+L36
+V7F6z>lBmm[i[Fd0S<POoh3
+!s100 _H11a=GjY2oj8W^9bB9GE3
+Z16 OV;C;10.5b;63
+32
+Z17 !s110 1540618158
+!i10b 1
+Z18 !s108 1540618158.000000
+Z19 !s90 -work|work|Flip-Flop.vho|
+Z20 !s107 Flip-Flop.vho|
+!i113 1
+R4
+Z21 tExplicit 1 CvgOpt 0
+Astructure
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 9 flipflopd 0 22 7F6z>lBmm[i[Fd0S<POoh3
+l65
+L44
+V:jGhKPLPPPmT?2g12_L6=0
+!s100 V]i]VE>nNOn0>mR8cKRR93
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R4
+R21
+Eflipflopd_vhd_vec_tst
+Z22 w1540618153
+R10
+R11
+R13
+Z23 8FLIPFLOPD.vwf.vht
+Z24 FFLIPFLOPD.vwf.vht
+l0
+L31
+VfHYCaF9zF`oV?2e<]fDTC0
+!s100 ;dbo0=Q6Ii0W51Cmz83CH1
+R16
+32
+R17
+!i10b 1
+R18
+Z25 !s90 -work|work|FLIPFLOPD.vwf.vht|
+Z26 !s107 FLIPFLOPD.vwf.vht|
+!i113 1
+R4
+R21
+Aflipflopd_arch
+R10
+R11
+DEx4 work 21 flipflopd_vhd_vec_tst 0 22 fHYCaF9zF`oV?2e<]fDTC0
+l46
+L33
+V:LZ7MSeBl?M0M;GQB=0:z1
+!s100 mBFk_WXR::2j1;XhkS]fI0
+R16
+32
+R17
+!i10b 1
+R18
+R25
+R26
+!i113 1
+R4
+R21
+vFLIPFLOPD_vlg_vec_tst
+!s110 1539869480
+!i10b 1
+!s100 8?6hH9TKd?^:kPlVO?KDG2
+Iz^56MjL^aO8RM:P1PiGZn1
+R1
+R0
+w1539869476
+8FLIPFLOPD.vwf.vt
+FFLIPFLOPD.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+R3
+!s107 FLIPFLOPD.vwf.vt|
+!s90 -work|work|FLIPFLOPD.vwf.vt|
+!i113 1
+R4
+n@f@l@i@p@f@l@o@p@d_vlg_vec_tst
+Eflipflopjk
+Z27 w1540618036
+R7
+R9
+R12
+R6
+Z28 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+R8
+R10
+R11
+Z29 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R13
+R14
+R15
+l0
+L38
+Vz@:KSHm<cELOhlbfJ7DGE2
+!s100 B;LZof>3hMn9QX=XOThH;3
+R16
+32
+Z30 !s110 1540618038
+!i10b 1
+Z31 !s108 1540618038.000000
+R19
+R20
+!i113 1
+R4
+R21
+Astructure
+R7
+R9
+R12
+R6
+R28
+R8
+R10
+R11
+R29
+DEx4 work 10 flipflopjk 0 22 z@:KSHm<cELOhlbfJ7DGE2
+l74
+L48
+V90mebFXQ:@3DmZ;;fLnVE3
+!s100 Gf=bHXEPE5P]K`M<<lN830
+R16
+32
+R30
+!i10b 1
+R31
+R19
+R20
+!i113 1
+R4
+R21
+Eflipflopjk_vhd_vec_tst
+Z32 w1540618033
+R10
+R11
+R13
+R23
+R24
+l0
+L31
+VJ8K5n;Il^19k7hQjTiFh<3
+!s100 fj>I:6l2[4OL=NjkIUX<j3
+R16
+32
+R30
+!i10b 1
+R31
+R25
+R26
+!i113 1
+R4
+R21
+Aflipflopjk_arch
+R10
+R11
+DEx4 work 22 flipflopjk_vhd_vec_tst 0 22 J8K5n;Il^19k7hQjTiFh<3
+l50
+L33
+VNRZRJh90i^Fz8EN:22oId0
+!s100 FMkBT;kQRiY2GY8kS7;g;3
+R16
+32
+R30
+!i10b 1
+R31
+R25
+R26
+!i113 1
+R4
+R21
