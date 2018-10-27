@@ -1,0 +1,217 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Output[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Se[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Se[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Se[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Se[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Register_1[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
