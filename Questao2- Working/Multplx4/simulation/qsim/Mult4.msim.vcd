@@ -1,0 +1,173 @@
+$comment
+	File created using the following command:
+		vcd file Mult4.msim.vcd -direction
+$end
+$date
+	Sat Oct 27 12:32:19 2018
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux4_vhd_vec_tst $end
+$var wire 1 ! A [1] $end
+$var wire 1 " A [0] $end
+$var wire 1 # B [1] $end
+$var wire 1 $ B [0] $end
+$var wire 1 % C [1] $end
+$var wire 1 & C [0] $end
+$var wire 1 ' D [1] $end
+$var wire 1 ( D [0] $end
+$var wire 1 ) Output [1] $end
+$var wire 1 * Output [0] $end
+$var wire 1 + Se [1] $end
+$var wire 1 , Se [0] $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var wire 1 0 devoe $end
+$var wire 1 1 devclrn $end
+$var wire 1 2 devpor $end
+$var wire 1 3 ww_devoe $end
+$var wire 1 4 ww_devclrn $end
+$var wire 1 5 ww_devpor $end
+$var wire 1 6 ww_A [1] $end
+$var wire 1 7 ww_A [0] $end
+$var wire 1 8 ww_B [1] $end
+$var wire 1 9 ww_B [0] $end
+$var wire 1 : ww_C [1] $end
+$var wire 1 ; ww_C [0] $end
+$var wire 1 < ww_D [1] $end
+$var wire 1 = ww_D [0] $end
+$var wire 1 > ww_Se [1] $end
+$var wire 1 ? ww_Se [0] $end
+$var wire 1 @ ww_Output [1] $end
+$var wire 1 A ww_Output [0] $end
+$var wire 1 B \Output[0]~output_o\ $end
+$var wire 1 C \Output[1]~output_o\ $end
+$var wire 1 D \A[0]~input_o\ $end
+$var wire 1 E \B[0]~input_o\ $end
+$var wire 1 F \C[0]~input_o\ $end
+$var wire 1 G \D[0]~input_o\ $end
+$var wire 1 H \Se[0]~input_o\ $end
+$var wire 1 I \Se[1]~input_o\ $end
+$var wire 1 J \Mux1~0_combout\ $end
+$var wire 1 K \A[1]~input_o\ $end
+$var wire 1 L \B[1]~input_o\ $end
+$var wire 1 M \C[1]~input_o\ $end
+$var wire 1 N \D[1]~input_o\ $end
+$var wire 1 O \Mux0~0_combout\ $end
+$var wire 1 P \ALT_INV_D[1]~input_o\ $end
+$var wire 1 Q \ALT_INV_C[1]~input_o\ $end
+$var wire 1 R \ALT_INV_B[1]~input_o\ $end
+$var wire 1 S \ALT_INV_A[1]~input_o\ $end
+$var wire 1 T \ALT_INV_Se[1]~input_o\ $end
+$var wire 1 U \ALT_INV_Se[0]~input_o\ $end
+$var wire 1 V \ALT_INV_D[0]~input_o\ $end
+$var wire 1 W \ALT_INV_C[0]~input_o\ $end
+$var wire 1 X \ALT_INV_B[0]~input_o\ $end
+$var wire 1 Y \ALT_INV_A[0]~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0-
+1.
+x/
+10
+11
+12
+13
+14
+15
+0B
+0C
+0D
+1E
+0F
+1G
+0H
+0I
+0J
+0K
+0L
+1M
+1N
+0O
+0P
+0Q
+1R
+1S
+1T
+1U
+0V
+1W
+0X
+1Y
+0!
+0"
+0#
+1$
+1%
+0&
+1'
+1(
+0+
+0,
+0)
+0*
+06
+07
+08
+19
+1:
+0;
+1<
+1=
+0>
+0?
+0@
+0A
+$end
+#250000
+1,
+1?
+1H
+0U
+1J
+1B
+1A
+1*
+#500000
+0,
+1+
+0?
+1>
+1I
+0H
+1U
+0T
+0J
+1O
+1C
+0B
+1@
+0A
+0*
+1)
+#750000
+1,
+1?
+1H
+0U
+1J
+1B
+1A
+1*
+#1000000
