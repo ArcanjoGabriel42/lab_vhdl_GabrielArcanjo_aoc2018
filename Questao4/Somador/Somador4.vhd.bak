@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+Entity Somador4 is 
+	Port
+	(
+		Input: in bit_vector(7 downto 0);
+		saida: out bit_vector(7 downto 0);
+	);
+end Somador4;
+
+architecture behavior of Somador4 is
+begin
+	saida = input + "00000100";
+end behavior;
