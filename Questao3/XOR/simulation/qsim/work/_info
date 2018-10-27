@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/VHDL/XOR/simulation/qsim
+Eportxor
+Z1 w1540108806
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+Z9 dE:/Documentos/VHDL/Questao3/XOR/simulation/qsim
+Z10 8XOR.vho
+Z11 FXOR.vho
+l0
+L36
+VkGeo]z88?JHUO7lh^V[F:2
+!s100 oM=B<@YfSe^QUI[QcdCkG0
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1540609861
+!i10b 1
+Z14 !s108 1540609861.000000
+Z15 !s90 -work|work|XOR.vho|
+Z16 !s107 XOR.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 7 portxor 0 22 kGeo]z88?JHUO7lh^V[F:2
+l64
+L44
+VUkmGU]jlW4AzKV7M?9CHG3
+!s100 `d3276iXSn8PGPR9SC`bK2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eportxor_vhd_vec_tst
+Z19 w1540108802
+R6
+R7
+R9
+Z20 8Xor.vwf.vht
+Z21 FXor.vwf.vht
+l0
+L31
+V]cin86jEK9ZLQ@A8HBURB2
+!s100 _Y;N1M[QMQXXCDTZZkLCo0
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Xor.vwf.vht|
+Z23 !s107 Xor.vwf.vht|
+!i113 1
+R17
+R18
+Aportxor_arch
+R6
+R7
+Z24 DEx4 work 19 portxor_vhd_vec_tst 0 22 ]cin86jEK9ZLQ@A8HBURB2
+l46
+L33
+Z25 VXLEi]i80e]dfW`aenN5[O2
+Z26 !s100 R7aTLzAl?R27JQC^>dCBU3
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18

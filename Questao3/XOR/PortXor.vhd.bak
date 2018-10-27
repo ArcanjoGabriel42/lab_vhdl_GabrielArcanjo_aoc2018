@@ -1,0 +1,7 @@
+Entity PortXor is
+	Port(
+		Input_a: In std_logic;
+		Input_b: In std_logic;
+		Output: Out std_logic
+	);
+End PortXor;
